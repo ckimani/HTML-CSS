@@ -1,6 +1,44 @@
 p
 {
 font-family:courier;
-border:solid;
-background-color:linen;
+}
+div.number1 
+{
+    background-color: lightgrey;
+    width: 400px;
+    height: 140px;
+    position: relative;
+    top:5px;
+    right:5px;
+    bottom:5px;
+    left:5px;
+
+}
+div.number2
+{
+background-color: linen;
+    width: 400px;
+    height:140px;
+    position: relative;
+    top:1px;
+    right:5px;
+    bottom:40px;
+    left:5px;
+}
+div.number3
+{
+	background-color: linen;
+	height:280px;
+    width: 500px;
+    position: relative;
+    top:-280px;
+    right:0px;
+    bottom:0px;
+    left:400px;
+}
+button
+{
+	position:relative;
+	top:100px;
+	right:140px;
 }
