@@ -7,38 +7,37 @@ div.number1
     background-color: lightgrey;
     width: 400px;
     height: 140px;
-    position: relative;
-    top:5px;
-    right:5px;
-    bottom:5px;
-    left:5px;
-
+    position: absolute;
+    top:200px;
+    left:200px;
 }
 div.number2
 {
 background-color: linen;
     width: 400px;
     height:140px;
-    position: relative;
-    top:1px;
-    right:5px;
+    position: absolute;
+    top:340px;
     bottom:40px;
-    left:5px;
+    left:200px;
 }
 div.number3
 {
-	background-color: linen;
+	background-color: yellow;
 	height:280px;
     width: 500px;
-    position: relative;
-    top:-280px;
-    right:0px;
+    position: absolute;
+    top:200px;
     bottom:0px;
-    left:400px;
+    left:600px;
 }
-button
+button.LoginButton
 {
-	position:relative;
+	position:absolute;
 	top:100px;
 	right:140px;
+}
+body
+{
+	background-color: yellow;
 }
