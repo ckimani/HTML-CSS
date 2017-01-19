@@ -1,10 +1,6 @@
-p
-{
-font-family:courier;
-}
 div.number1 
 {
-    background-color: lightgrey;
+    background-color: #F39C12;
     width: 400px;
     height: 140px;
     position: absolute;
@@ -13,7 +9,7 @@ div.number1
 }
 div.number2
 {
-background-color: linen;
+background-color: #A569BD;
     width: 400px;
     height:140px;
     position: absolute;
@@ -39,5 +35,17 @@ button.LoginButton
 }
 body
 {
-	background-color: yellow;
+	background-color: #EBEDEF;
+}
+div.set_user_login
+{
+	position:absolute;
+	top:50px;
+	left:100px;
+}
+div.set_user_register
+{
+	position:absolute;
+	top:20px;
+	left:100px;
 }
